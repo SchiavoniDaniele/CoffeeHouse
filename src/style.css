@@ -1,0 +1,264 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    font-family: Calibri;
+    background-color: rgba(172,115,57,0.5);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #202020;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e8f0e9;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #202020;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #EDA10F;
+    border-radius: 5px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: white;
+    padding: 10px 20px;
+    background:url('img/bg__nav.jpeg') fixed;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    list-style: none;
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+nav li {
+    cursor: pointer;
+}
+
+nav li:hover {
+    color: #f1c40f;
+}
+
+nav .testoPagina {
+    position: absolute;
+    top: 12%;
+    /*left: 42%;*/ 
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 80px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+nav img {
+    position: absolute;
+    top: 1%;
+    /*left:  46%;*/
+    left: 50%;
+    transform: translateX(-50%);
+}
+main {
+    /*background-image: url(/img/sfondo.jpg);*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    background-color: rgba(172,115,57,0.5);
+    margin:10px 0;
+}
+
+form.form-center {
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 10px;
+}
+
+form.form-center label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form.form-center input, form.form-center select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+form.form-center button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 12%;
+    /*left: 42%;*/
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+form.form-center button:hover {
+    background-color: #ea8c08;
+}
+
+#contatti {
+    height: 300px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    background-color: #ea8c08;
+}
+
+
+.m-top-50 {
+    margin-top: 50px;
+}
+
+.containerIndirizzo {
+    flex: 3;
+}
+
+.containerMaps img {
+    border-radius: 15px;
+}
+
+.containerMaps {
+    flex: 3;
+}
+
+footer {
+    width: 100%;
+    height: 45px;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+    padding: 4px 0;
+    font-weight: 600;
+    font-size: 18px;
+       
+}
+
+div{
+    text-align:center;   
+}
+ol{
+    list-style:none;
+}
+.contact_out{
+    text-align: center;
+    width:50%;
+    margin:auto;
+}
+.contact_in{
+    text-align: center;    
+    border-radius:20px;
+    width:400px;
+    margin:20px auto 20px auto;
+    background-color: rgba(255,255,255,0.8);
+}
+
+
+
+.contact_in button{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+.contact_in input,.contact_in textarea{
+    padding-top:10px;
+    margin-bottom:10px;
+    border: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+/*Per arrotondare le immagini nel menù*/
+.round{
+    border:2px solid #333;
+    border-radius: 50%;}
+.contact, .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+.work_under_progress{
+    text-align: center;
+    
+}

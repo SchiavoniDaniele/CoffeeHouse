@@ -1,0 +1,213 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #202020;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e8f0e9;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #202020;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #EDA10F;
+    border-radius: 5px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: white;
+    padding: 10px 20px;
+    background-image:url(/img/bg__nav.jpg);
+    height:400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        list-style: none;
+        font-weight: 600;
+        font-size: 25px;
+        text-shadow: 4px 4px 4px rgba(0,0,0,0.9);
+    }
+
+   nav li{
+       cursor: pointer;
+   }
+
+   nav li a:hover{
+       color: #f1c40f;
+   }
+
+    nav .testoPagina {
+        position: absolute;
+        top: 12%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 90px;
+        text-shadow: 4px 4px 4px rgba(0,0,0,0.9);
+        
+    }
+
+    nav img {
+        position: absolute;
+        top: 1%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+#contatti {
+    height: 300px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerIndirizzo {
+    flex: 3;
+}
+
+.containerMaps img{
+    border-radius:15px;
+}
+
+.containerMaps{
+flex: 3;
+}
+
+.containerHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+    margin: 10px 0px;
+    background-color: rgba(172,115,57,0.5);
+    color: white;
+}
+
+.descrizione {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+  
+}
+
+.containerHome button{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+    .containerHome button a {
+        text-decoration: none;
+        color:black;
+    }
+
+    .containerHome button:hover{
+        background-color: #ea8c08;
+    }
+
+.immagineDescrizione{
+    width:90%;
+    border-radius:10px;
+    height: 600px;
+    background-image: url(/img/caffeDolci.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:30px;
+
+}
+
+.containerChiSiamo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    margin: 10px 0px;
+    background-color: rgba(172,115,57,0.5);
+    color: white;
+}
+
+.descrizioneChiSiamo {
+    flex: 1;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.immagineChiSiamo{
+    flex:1.5;
+    background-image: url(/img/padriFondatori.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 8px;
+    margin:20px;
+}
+
+.immagineChiSiamo2{
+    flex: 1.5;
+    background-image: url(/img/fotoTeam.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+    footer{
+        width:100%;
+        height: 45px;
+    }
+
+    footer p{
+        color: black;
+        text-align: center;
+        padding: 4px 0;
+        font-weight: 600;
+        font-size:18px;
+    }
+
+  
